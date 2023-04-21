@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assign2.css">
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+<form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+    <div id="name_section" style="margin-left: 25%;">
+       <h2>NAME</h2>
+            <label for="first_name">First Name :</label>
+            <input type="text" required size="30" name="first_name" id=""><br><br><br>
+            <label for="last_name">Last Name :</label>
+            <input type="text" required size="30" name="last_name" id="">
+    </div><br><br>
+    <div>
+        <fieldset id="address" style="background-color: black">
+            <h2>ADDRESS</h2>
+                <table style="margin-left: 5%;">
+                    <tr>
+                        <td>
+                            <label for="address 1">Address</label><br><input type="text"  required size="50" name="street_address" id="">
+                        </td>
+                        <td>
+                            <label for="city">City</label><br><input type="text" required name="city" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="state">State</label><br><input type="text" required name="state" id="">
+                        </td>
+                        <td>
+                            <label for="pin code">Pin Code</label><br><input type="number" required name="pincode" id="">
+                        </td>
+                    </tr>
+                </table>
+        </fieldset>
+    </div><br><br>
+        <div action="" id="contact_number">
+            <h2>CONTACT NUMBER</h2>
+            <label for="contact number">Contact Number :</label>
+            <input type="number" required maxlength="10" name="contact_number" id="">
+        </div><br><br>
+    <div>
+        <fieldset style="text-align: center;" id="rating">
+            <h2>RATING</h2>
+                <table id="rating_table" style="margin-left: 20%;">
+                    <tr>
+                        <td>
+                            <label for="quality">Quality Of Product :</label>
+                        </td>
+                        <td>Excellent
+                            <input type="radio" value="Excellent"  required name="quality_of_product_recieved_rating" id="">
+                        </td>
+                        <td>Good
+                            <input type="radio" value="Good" required name="quality_of_product_recieved_rating" id="">
+                        </td>
+                        <td>Bad
+                            <input type="radio" value="Bad" required name="quality_of_product_recieved_rating" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="quality">Value For Money :</label>
+                        </td>
+                        <td>Excellent
+                            <input type="radio" value="Excellent" required name="value_for_money_rating" id="">
+                        </td>
+                        <td>Good
+                            <input type="radio" value="Good" required name="value_for_money_rating" id="">
+                        </td>
+                        <td>Bad
+                            <input type="radio" value="Bad" required name="value_for_money_rating" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="quality">Delievery :</label>
+                        </td>
+                        <td>Excellent
+                            <input type="radio" value="Excellent" required name="delievery_rating" id="">
+                        </td>
+                        <td>Good
+                            <input type="radio" value="Good" required  name="delievery_rating" id="">
+                        </td>
+                        <td>Bad
+                            <input type="radio" value="Bad" required name="delievery_rating" id="">
+                        </td>
+                    </tr>
+                </table>
+        </fieldset>
+    </div><br><br>
+    <div style="text-align: center;">
+        <button id="submit" type="submit">Submit</button>
+    </div>
+</form>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    margin-top: 0%;
+
+
+}
+#name_section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+body{
+    background-color: #6E85B2;
+    color: white;
+}
+#address{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#contact_number{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:  black;
+    border-radius: 10px;
+}
+#rating{
+     margin-left: 25%;
+     margin-right: 25%;
+     background-color: black;
+     padding-top: 10px;
+     border-radius: 10px;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: blueviolet; 
+    color: white;
+}
